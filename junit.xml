@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="0" time="1.409">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2023-03-19T20:19:22" time="1.036" tests="5">
+    <testcase classname=" For each task in stage 0 and stage 1, backward and forward buttons are correctly enabled/disabled" name=" For each task in stage 0 and stage 1, backward and forward buttons are correctly enabled/disabled" time="0.025">
+    </testcase>
+    <testcase classname=" For each task in stage 2 and stage 3, backward and forward buttons are correctly enabled/disabled" name=" For each task in stage 2 and stage 3, backward and forward buttons are correctly enabled/disabled" time="0.009">
+    </testcase>
+    <testcase classname=" For a task in stage 0, can be moved forward till stage 4 and buttons are correctly enabled and disabled in stage 4" name=" For a task in stage 0, can be moved forward till stage 4 and buttons are correctly enabled and disabled in stage 4" time="0.007">
+    </testcase>
+    <testcase classname=" For a task in stage 4, can be moved backward till stage 0 and check for buttons are enabled/disabled correctly" name=" For a task in stage 4, can be moved backward till stage 0 and check for buttons are enabled/disabled correctly" time="0.006">
+    </testcase>
+    <testcase classname=" after many forward and back operations, tasks are in correct state" name=" after many forward and back operations, tasks are in correct state" time="0.005">
+    </testcase>
+  </testsuite>
+</testsuites>
