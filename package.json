@@ -16,8 +16,8 @@
   "scripts": {
     "prestart": "npm install",
     "pretest": "npm install",
-    "start": "ef3ec192-a246-4a7d-b436-3997141c2fed/node_modules/.bin/cross-env HOST=0.0.0.0 PORT=8000 ./node_modules/.bin/react-scripts start",
-    "test": "ef3ec192-a246-4a7d-b436-3997141c2fed/node_modules/.bin/cross-env CI=true ./node_modules/.bin/react-scripts test --verbose --env=jsdom --testResultsProcessor ./node_modules/jest-junit"
+    "start": "./node_modules/.bin/cross-env HOST=0.0.0.0 PORT=8000 ./node_modules/.bin/react-scripts start",
+    "test": "./node_modules/.bin/cross-env CI=true ./node_modules/.bin/react-scripts test --verbose --env=jsdom --testResultsProcessor ./node_modules/jest-junit"
   },
   "devDependencies": {
     "chai": "^4.2.0",
